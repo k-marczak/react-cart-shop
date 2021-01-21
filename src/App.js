@@ -15,6 +15,7 @@ class App extends Component {
   render(){
     return (
       <React.Fragment>
+        {/* something */}
         <Navbar />
         <Switch>
           <Route exact path="/" component={ProductList} />
